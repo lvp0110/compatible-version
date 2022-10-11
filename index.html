@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleJ.css" type="text/css">
+
+    <title>JSON</title>
+</head>
+<body>
+    <!-- <input type="text" id="input" >
+    <button id="button-delete">input</button>
+    <div class="content" id="tbl">12325896
+    </div> -->
+    <div class="test_form">
+    <form class="row" id="form" novalidate>
+        <div class="col-md-3">
+            <label for="validationCustom04" class="form-label"></label>
+              <select class="form-select" id="validationCustom04" name="plan" required>
+                <option selected disabled value="">КОНСТРУКЦИИ</option>
+                <option id="op1">Звукоизоляционная каркасная облицовка с применением Виброфлекс-коннект-ПС (90 мм) </option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </div>
+
+        <!-- <div class="col-md-3">
+            <label for="validationCustom04" class="form-label"></label>
+              <select class="form-select" id="validationCustom05" name="plan1" required>
+              <option selected disabled value="">ЗИПС</option>
+              <option>ЗИПС-Z4. Звукоизоляционная бескаркасная облицовка (55 мм) для неровных стен</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              <option>4</option>
+              </select>
+            <div class="invalid-feedback"></div>
+        </div> -->
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label"></label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder ="длина конструкции" name="number" required>
+                <div class="valid-feedback">
+                </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom02" class="form-label"></label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder ="ширина(высота) конструкции" name="number1" required>
+                <div class="valid-feedback">
+                </div>
+        </div>
+       
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label"></label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder ="длина проема" name="number2" required>
+                <div class="valid-feedback">
+                </div>
+          </div>
+        
+        <div class="col-md-4">
+          <label for="validationCustom05" class="form-label"></label>
+          <input type="text" class="form-control" id="validationCustom05" placeholder ="ширина(высота) проема" name="number3" required>
+          <div class="invalid-feedback">
+            
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+            
+            <nav class="menu-table">
+                <ul>
+                    <li><a href="#"><i class="fa fa-cogs"></i>настройки</a>
+                        <ul>
+                            <select name="terms" class="step">
+                              <option selected disabled value="" >сдвоенный профиль</option>
+                              <option>сдвоенный </option>
+                              <option>одинарный</option>
+                            </select>
+
+                            <select name="terms1" class="step">
+                              <option selected disabled value="" >шаг профиля</option>
+                              <option>600 </option>
+                              <option>400</option>
+                              <option>300</option>
+                            </select>
+
+                            <select name="terms4" class="step">
+                              <option selected disabled value="" >материал периметра пола</option>
+                              <option>вибростек</option>
+                              <option>материал пола</option>
+                            </select>
+                            <li><a href="#"><input  class="step" style="width: 192px; border: 1px solid white;" placeholder ="высота удлинителя потолка" type="text" name="number4"></a></li>
+                        </ul>
+                </ul>
+            </nav>
+
+          </div>
+        <!-- <div class="col-md-4">
+            <label for="validationCustom04" class="form-label"></label>
+            <select class="form-step" id="validationCustom04" name="plan2" required>
+              <option selected disabled value="">шаг профиля</option>
+              <option>600</option>
+              <option>400</option>
+              <option>300</option>
+            </select>
+            <div class="invalid-feedback">
+             
+            </div>
+          </div> -->
+
+        <!-- <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" name="terms" required>
+            <label class="form-check-label" for="invalidCheck">
+              сдвоенный профиль
+            </label>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" name="terms1" required>
+            <label class="form-check-label" for="invalidCheck">
+              периметр пола вибростек
+            </label>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+        </div> -->
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit" >РАСЧЕТ</button>
+        </div>
+        
+      </form>
+    </div>
+
+    <div class="content" id="out"></div>
+   
+ <!-- <script src="test.js"></script>    -->
+ <script src="form.js"></script>   
+ <!-- <script src="button.js"></script>    -->
+</body>
+</html>
